@@ -1,8 +1,12 @@
+import { Link } from "react-router-dom";
+
 function Dashboard() {
     return(
         <>
-        Dashboard
+        <h2>Dashboard</h2>
+        <Link to = '/'>Back to login</Link>
         </>
+      
     )
 };
 
